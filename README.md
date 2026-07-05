@@ -20,16 +20,16 @@ El proyecto incluye 6 funciones principales:
 5. `esMayorDeEdad(fechaNacimiento)` → boolean — valida si es mayor de edad
 6. `validarPassword(password)` → boolean — requiere mayúscula, minúscula, número, carácter especial y mínimo 8 caracteres
 
-También incluye 2 funciones adicionales:
+Las 2 funciones adicionales:
 
-- **`capitalizarTexto(texto)`**: corrige lo que el usuario escribe (incluso si lo escribió todo en minúsculas o todo en mayúsculas desordenadas), dejando cada palabra con su primera letra en mayúscula.
+- **`capitalizarTexto(texto)`**: corrige lo que el usuario escribe (Si lo escribió todo en minúsculas o todo en mayúsculas desordenadas), dejando cada palabra con la primera letra en mayúscula.
 - **`limpiarEspacios(texto)`**: quita los espacios vacíos que quedan antes de la letra o al escribir doble espacio en medio del texto.
 
 ---
 
 ## Instalación
 
-Para utilizar esta librería, agrega esta línea dentro de tu página HTML:
+Para utilizar esta librería, se agrega esta línea de código dentro de la página HTML:
 
 ```html
 <script src="js/utileria.js"></script>
