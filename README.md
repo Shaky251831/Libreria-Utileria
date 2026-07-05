@@ -19,6 +19,7 @@ El proyecto incluye 6 funciones:
 Tambien inlcuye las 2 funciones que son capitalizarTexto se refiere lo que el usuario escribe (incluso si lo escribió todo en minúsculas o todo en mayúsculas desordenadas) esto lo corrige.
 La otra funcion es limpiarespacios esto se refiere quitar los espacios vacíos que quedan antes de la letra o al darle doble espacio en medio.
 
+
 ##  Instalación.
 
 Para utilizar esta librería debemos de poner esta línea de codigo dentro de la página de HTML para que función.
@@ -86,4 +87,8 @@ function capitalizarTexto(texto) {
     return texto.toLowerCase().replace(/\b\w/g, l => l.toUpperCase());
 }
 
+----
+## Capturas de pantalla
+<img width="589" height="310" alt="Imagen2" src="https://github.com/user-attachments/assets/a00805eb-3ea7-4d32-93b1-09fe5ff83d54" />
+<img width="589" height="310" alt="Imagen1" src="https://github.com/user-attachments/assets/b32de371-8fc6-4c33-80f8-d0a203f77a62" />
 
